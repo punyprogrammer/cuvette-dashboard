@@ -564,7 +564,7 @@ const CenterBar = () => {
           </UpdateContainer>
           <ModalHr2 />
           <ButtonContainer>
-            <CancelButton>Cancel</CancelButton>
+            <CancelButton onClick={()=>setOpen(false)}>Cancel</CancelButton>
             <SaveButtonContainer onClick={handleDataChange}>
               <SaveButtonText>Save</SaveButtonText>
               <ArrowRightAltIcon />
